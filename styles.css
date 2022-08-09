@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+
+
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.header-logo {
+   font-size: 24px;
+}
+
+.container {
+    display: flex;
+    gap: 8px;
+    max-width: 350px;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.heromain {
+    display: flex;
+    font-size: 40px;
+
+}
+
+.herosub {
+    display: flex;
+    font-size: 16px;
+}
+
+.signup {
+    display: flex;
+    max-width: 75px;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.imgcontainer {
+    display: flex;
+flex-direction: row;
+}
+
+.heroimg {
+    margin-top: 55px;
+    margin-left: 40px;
+}
